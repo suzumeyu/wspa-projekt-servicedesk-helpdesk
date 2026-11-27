@@ -1,0 +1,35 @@
+# --- System operacyjny ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Edytory ---
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+
+# --- Pliki tymczasowe i blokady (Office, LibreOffice) ---
+~$*
+.~lock.*
+*.tmp
+*.bak
+
+# --- draw.io: kopie zapasowe ---
+*.bkp
+*.drawio.bkp
+.$*.drawio
+.$*.dtmp
+
+# --- Wygenerowane dokumenty ---
+# PDF Zwartego Dokumentu dołączamy do GitHub Release, nie commitujemy go.
+*.pdf
+*.docx
+*.pptx
+# Wyjątek: prezentacja na sesję odbiorczą i (opcjonalnie) podpisany protokół
+!docs/zalaczniki/prezentacja.pdf
+!docs/zalaczniki/protokol_odbioru.pdf
+
+# --- Node / narzędzia pomocnicze (np. mermaid-cli, pandoc filters) ---
+node_modules/
